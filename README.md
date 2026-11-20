@@ -82,6 +82,19 @@ Analysiert Lebenslauf und Stellenanzeige und liefert strukturierte Ergebnisse zu
 
 ## Lokale Installation & Start
 
+### Option A: Schnellstart mit Docker Compose (Empfohlen)
+
+```bash
+cp .env.example .env
+# Trage deinen API-Key in die .env ein
+docker compose up --build
+```
+Anschließend sind Frontend (`http://localhost:5174`) und Backend (`http://localhost:8001/docs`) sofort einsatzbereit.
+
+---
+
+### Option B: Manuelle Installation
+
 ### 1. Backend starten (FastAPI)
 
 **Windows (PowerShell):**
